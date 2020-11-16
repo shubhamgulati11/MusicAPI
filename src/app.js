@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const app = express()
 const mod = require('./models/model.js')
 const port = process.env.PORT || 3000
-const URI = 'mongodb+srv://dbUser:dbUser@cluster0.oyo9j.mongodb.net/API?retryWrites=true&w=majority';
+const URI = '******************';
 
 mongoose.connect(URI,{
     useNewUrlParser:true , useUnifiedTopology:true ,useCreateIndex: true
